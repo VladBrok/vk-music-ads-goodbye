@@ -7,5 +7,14 @@
       "urlFilter": "https://vk.com/al_audio.php?act=ad_event",
       "initiatorDomains": ["vk.com"]
     }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "https://r.mradx.net/*",
+      "initiatorDomains": ["vk.com"]
+    }
   }
 ]
