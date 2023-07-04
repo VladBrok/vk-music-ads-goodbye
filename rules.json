@@ -16,5 +16,14 @@
       "urlFilter": "https://r.mradx.net/*",
       "initiatorDomains": ["vk.com"]
     }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "https://vk.com/ads_rotate.php?act=al_update_ad",
+      "initiatorDomains": ["vk.com"]
+    }
   }
 ]
