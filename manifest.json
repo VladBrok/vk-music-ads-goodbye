@@ -15,6 +15,6 @@
       }
     ]
   },
-  "host_permissions": ["*://*/*"],
+  "host_permissions": ["https://vk.com/*"],
   "permissions": ["declarativeNetRequest"]
 }
